@@ -1,0 +1,143 @@
+* {
+  margin: 0;
+  padding: 0;
+}
+
+body {
+  background: rgb(0,133,159);
+  background: linear-gradient(53deg, rgba(0,133,159,1) 0%, rgba(175,246,247,1) 26%, rgba(252,252,252,1) 100%);
+  background-size: cover;
+  font-family: sans-serif;
+  color: rgb(0, 70, 126);
+  font-size: 1.2em;
+  gap: 4px;
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+#titulo {
+  font-family: sans-serif;
+  color: rgb(0, 70, 126);
+  text-shadow: 1.2px 1.2px 2.4px rgb(0, 70, 126, 0.2);
+}
+
+#subtitulo {
+  font-family: sans-serif;
+  color: rgb(0, 70, 126);
+  margin-left: 16%;
+  text-shadow: 1.2px 1.2px 2.4px rgb(0, 70, 126, 0.2);
+}
+
+fieldset {
+  width: 100%;
+  border: 0;
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
+  margin: 4px 0px;
+  padding: 0;
+  gap: 8px;
+}
+
+label {
+  text-shadow: 1.2px 1.2px 2.4px rgb(0, 70, 126, 0.2);
+}
+
+.nome{
+  width: 100%;
+}
+
+input[type="text"],select,input[type="email"]{
+  border-radius: 6px;
+  width: 100%;
+  font-size: 18px;
+  margin: 4px 0px;
+  padding: 4px;
+  box-shadow: 2.4px 2.4px 2.4px rgb(0, 70, 126, 0.2);
+  border: 1.2px solid rgb(0, 70, 126);
+  text-align: justify;
+}
+
+input[type="text"]:focus, input[type="email"]:focus, select:focus, textarea:focus {
+  background: whitesmoke;
+}
+
+#tipoDev{
+  margin: 8px 0px ;
+  padding: 0;
+  display: flex;
+  justify-content: space-evenly;
+}
+
+#radio {
+  margin: 8px 8px ;
+  padding: 0;
+  display: flex;
+  flex-direction: column;
+}
+
+#radiotitulo {
+margin-bottom: 4px;
+}
+
+.radio {
+  display: flex;
+  justify-content: space-evenly;
+  width: 100%;
+}
+
+#option {
+  margin: 4px 8px ;
+}
+
+#grupo{
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  text-align: center;
+  width: 100%;
+  margin: 4px 0px;
+  padding: 4px 0px;
+}
+
+.grupo{
+  margin: 4px 0px;
+}
+
+#experiencia{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  text-align: center;
+  flex-direction: column;
+  padding: 4px 0;
+  margin: 4px 0;
+}
+
+#botao{
+  display: flex;
+  width: 100%;
+  align-items: center;
+  justify-content: center;
+  margin-top: 4px;
+}
+
+button {
+  border-radius: 6px;
+  font-size: 1em;
+  background: whitesmoke;
+  color: rgb(0, 70, 126);
+  box-shadow: 2.4px 2.4px 2.4px rgba(0, 70, 126, 0.2);
+  text-shadow: 1.2px 1.2px 1.2px rgba(0, 70, 126, 0.2);
+  padding: 4px;
+  margin: 4px;
+  align-self:center;
+}
+
+button:hover {
+  background: rgb(0, 70, 126);
+  color: whitesmoke;
+  box-shadow: 2.4px 2.4px 2.4px rgba(138, 193, 238, 0.2);
+}
